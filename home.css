@@ -3,18 +3,19 @@ font-family: 'Josefin Slab', serif;
 font-family: 'Yanone Kaffeesatz', sans-serif; */
 body {
   display: flex;
+  flex-direction: column;
   background-color: #FAE1DF;
   margin: 0 auto;
 }
-
 /* //////////////////////////
     ** NAV BAR **
 ////////////////////////// */
 nav {
   display: flex;
-    background-color: #e4c3ad;
+  background-color: #e4c3ad;
   width: 100vw;
-  box-shadow: 0 2px 2px -1px black;
+  height: 5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .navlinks {
   display: flex;
@@ -54,4 +55,35 @@ h4 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 15px;
   margin: auto;
+}
+/* //////////////////////////
+    ** MAIN CONTAINER **
+////////////////////////// */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 3em;
+  height: 500px;
+  flex-grow: 1;
+  width: 40%;
+  background-color: #472836;
+  font-family:'Josefin Slab', serif;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 2em;
+  color: #e4c3ad;
+  font-size: 20px;
+  overflow: scroll;
+  border: .5px solid #9ea3b0;
+  border-radius: 30px;
+}
+#headshot {
+  border-radius: 50%;
+  height: 200px;
+  width: 160px;
+  align-self: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: .5px solid #9ea3b0;
 }
