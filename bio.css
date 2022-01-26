@@ -1,15 +1,15 @@
 /* font-family: 'Waterfall', cursive;
 font-family: 'Josefin Slab', serif;
 font-family: 'Yanone Kaffeesatz', sans-serif; */
-* {
-  /* margin: 0;
-  padding: 0; */
-  /* border-box-sizing: border-box; */
-}
 body {
   display: flex;
   background-color: #D8D8F6;
+  margin: 0 auto;
 }
+
+/* //////////////////////////
+    ** NAV BAR **
+////////////////////////// */
 nav {
   display: flex;
   background-color: #B18FCF;
@@ -29,6 +29,7 @@ nav {
 }
 .navlinks a {
   color: #494850;
+  font-size: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   text-decoration: none;
 }
@@ -52,5 +53,5 @@ nav {
 h4 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 15px;
-  margin:auto;
+  margin: auto;
 }
