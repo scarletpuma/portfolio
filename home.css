@@ -1,0 +1,57 @@
+/* font-family: 'Waterfall', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif; */
+body {
+  display: flex;
+  background-color: #FAE1DF;
+  margin: 0 auto;
+}
+
+/* //////////////////////////
+    ** NAV BAR **
+////////////////////////// */
+nav {
+  display: flex;
+    background-color: #e4c3ad;
+  width: 100vw;
+  box-shadow: 0 2px 2px -1px black;
+}
+.navlinks {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em;
+  padding: 0.5em;
+}
+.navlinks li {
+  list-style: none;
+}
+.navlinks a {
+  color: #472836;
+  font-size: 1.5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-decoration: none;
+}
+.navlinks a:hover {
+  color: #FAE1DF;
+  text-style: italic;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+}
+#name, h4 {
+  color: #FAE1DF;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  text-shadow: 1px 1px 1px black;
+}
+#name {
+  font-family: 'Waterfall', cursive;
+  font-size: 45px;
+}
+h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 15px;
+  margin: auto;
+}

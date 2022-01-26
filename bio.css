@@ -3,7 +3,7 @@ font-family: 'Josefin Slab', serif;
 font-family: 'Yanone Kaffeesatz', sans-serif; */
 body {
   display: flex;
-  background-color: #D8D8F6;
+  background-color: #FAE1DF;
   margin: 0 auto;
 }
 
@@ -12,7 +12,7 @@ body {
 ////////////////////////// */
 nav {
   display: flex;
-  background-color: #B18FCF;
+    background-color: #e4c3ad;
   width: 100vw;
   box-shadow: 0 2px 2px -1px black;
 }
@@ -28,19 +28,19 @@ nav {
   list-style: none;
 }
 .navlinks a {
-  color: #494850;
+  color: #472836;
   font-size: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   text-decoration: none;
 }
 .navlinks a:hover {
-  color: #D8D8F6;
+  color: #FAE1DF;
   text-style: italic;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px black;
 }
 #name, h4 {
-  color: #D8D8F6;
+  color: #FAE1DF;
   display: inline;
   padding: 0;
   margin: 0;
@@ -54,7 +54,4 @@ h4 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 15px;
   margin: auto;
-}
-@media (min-width:) {
-  
 }
