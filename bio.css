@@ -60,7 +60,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-self: center;
-  margin: 3em;
+  margin: 1.5em;
   height: 500px;
   flex-grow: 1;
   width: 40%;
@@ -88,8 +88,6 @@ h4 {
 h1 {
   font-family: 'Waterfall', cursive;
   font-size: 4em;
-  /* display: inline-block;
-  flex-direction: row wrap; */
   align-self: center;
   margin: 0;
   padding: 0;
@@ -106,8 +104,7 @@ p{
   align-self: center;
   width: 60%;
   height: 200px;
-  margin-top: 3em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
   background-color: #472836;
   color: white;
 }
@@ -137,4 +134,23 @@ p{
 	background: #472836;
 	box-shadow: 1px 1px #9ea3b0;
 	color: white;
+}
+/* //////////////////////////
+    ** LINK CONTAINER **
+////////////////////////// */
+.linkcontainer {
+  display:flex;
+  height: 4em;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-color: #472836;
+}
+.linkcontainer a {
+  text-decoration: none;
+  color: #9ea3b0;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+.linkcontainer a:hover {
+  color: #e4c3ad;
 }
