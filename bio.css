@@ -1,6 +1,3 @@
-/* font-family: 'Waterfall', cursive;
-font-family: 'Josefin Slab', serif;
-font-family: 'Yanone Kaffeesatz', sans-serif; */
 body {
   display: flex;
   background-color: #FAE1DF;
@@ -13,7 +10,7 @@ body {
 ////////////////////////// */
 nav {
   display: flex;
-    background-color: #e4c3ad;
+  background-color: #e4c3ad;
   width: 100vw;
   box-shadow: 0 2px 2px -1px black;
 }
@@ -59,7 +56,7 @@ h4 {
 /* //////////////////////////
     ** MAIN CONTAINER **
 ////////////////////////// */
-.container {
+.bigcontainer {
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -83,7 +80,6 @@ h4 {
   float: right;
   height: 200px;
   width: 200px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   /* got this math from https://codepen.io/thebabydino/pen/PowXYpV did a lot of research on it and this seemed like the best method*/
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
@@ -94,10 +90,51 @@ h1 {
   font-size: 4em;
   /* display: inline-block;
   flex-direction: row wrap; */
-  align-self: flex-start;
+  align-self: center;
   margin: 0;
   padding: 0;
 }
 p{
   flex: 1;
+}
+/* //////////////////////////
+    ** FACT CONTAINER **
+////////////////////////// */
+.factcontainer {
+	display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 60%;
+  height: 200px;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  background-color: #472836;
+  color: white;
+}
+.facts {
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+  display: none;
+  width: 100%;
+}
+.facts article:first-of-type {
+  border-radius: 10px;
+	display: block;
+  color: white;
+}
+.factbutton {
+	align-self: center;
+	background: #9ea3b0;
+	color: #472836;
+	padding: .4em;
+  margin: 1em;
+	text-align: center;
+	box-shadow: 1px 1px #472836;
+}
+.factbutton:hover {
+	cursor: pointer;
+	background: #472836;
+	box-shadow: 1px 1px #9ea3b0;
+	color: white;
 }
