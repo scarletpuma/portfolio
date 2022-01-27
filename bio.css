@@ -66,7 +66,7 @@ h4 {
   width: 40%;
   background-color: #472836;
   font-family:'Josefin Slab', serif;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: 5px 5px 15px 5px #000000;
   border: 1px solid black;
   text-align: center;
   padding: 1em;
@@ -84,6 +84,8 @@ h4 {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   flex: 1;
+  border: 1px dashed #9ea3b0;
+  padding: 2px;
 }
 h1 {
   font-family: 'Waterfall', cursive;
@@ -91,6 +93,8 @@ h1 {
   align-self: center;
   margin: 0;
   padding: 0;
+  color: #9ea3b0;
+  text-shadow: 2px 2px 0px #FAE1DF, 5px 4px 0px rgba(0,0,0,0.15);
 }
 p{
   flex: 1;
@@ -103,10 +107,13 @@ p{
   justify-content: space-between;
   align-self: center;
   width: 60%;
-  height: 200px;
+  height: 150px;
   margin-top: 1.5em;
   background-color: #472836;
   color: white;
+  border-radius: 35%;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border: .5px solid #9ea3b0;
 }
 .facts {
 	padding: 10px;
@@ -131,9 +138,12 @@ p{
 }
 .factbutton:hover {
 	cursor: pointer;
-	background: #472836;
+	background: #e4c3ad;
 	box-shadow: 1px 1px #9ea3b0;
 	color: white;
+}
+.factbutton:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 /* //////////////////////////
     ** LINK CONTAINER **
