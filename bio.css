@@ -5,6 +5,7 @@ body {
   display: flex;
   background-color: #FAE1DF;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 /* //////////////////////////
@@ -54,4 +55,49 @@ h4 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 15px;
   margin: auto;
+}
+/* //////////////////////////
+    ** MAIN CONTAINER **
+////////////////////////// */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 3em;
+  height: 500px;
+  flex-grow: 1;
+  width: 40%;
+  background-color: #472836;
+  font-family:'Josefin Slab', serif;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1em;
+  color: #e4c3ad;
+  font-size: 20px;
+  overflow: scroll;
+  border: .5px solid #9ea3b0;
+  border-radius: 30px;
+}
+#headshot {
+  float: right;
+  height: 200px;
+  width: 200px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /* got this math from https://codepen.io/thebabydino/pen/PowXYpV did a lot of research on it and this seemed like the best method*/
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  flex: 1;
+}
+h1 {
+  font-family: 'Waterfall', cursive;
+  font-size: 4em;
+  /* display: inline-block;
+  flex-direction: row wrap; */
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+}
+p{
+  flex: 1;
 }
