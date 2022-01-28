@@ -119,13 +119,14 @@ p{
 	padding: 10px;
 	border-radius: 10px;
 	box-sizing: border-box;
-  display: none;
+  text-align: center;
   width: 100%;
 }
 .facts article:first-of-type {
   border-radius: 10px;
 	display: block;
   color: white;
+  display: none;
 }
 .factbutton {
 	align-self: center;
