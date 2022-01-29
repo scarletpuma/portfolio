@@ -3,6 +3,7 @@ body {
   background-color: #FAE1DF;
   margin: 0 auto;
   flex-direction: column;
+  scroll-style: none;
 }
 
 /* //////////////////////////
