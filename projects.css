@@ -5,6 +5,7 @@ body {
   display: flex;
   background-color: #FAE1DF;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 /* //////////////////////////
@@ -54,4 +55,74 @@ h4 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 15px;
   margin: auto;
+}
+/* //////////////////////////
+    ** CAROUSEL **
+////////////////////////// */
+img {
+  border: 1px solid #472836;
+  padding: 5px;
+}
+.projbutton {
+	align-self: center;
+	background: #9ea3b0;
+	color: #472836;
+	padding: .4em;
+  margin: 1em;
+	text-align: center;
+	box-shadow: 1px 1px #472836;
+  width: 20px;
+  height: 20px;
+}
+.projbutton:hover {
+	cursor: pointer;
+	background: #e4c3ad;
+	box-shadow: 1px 1px #9ea3b0;
+	color: white;
+}
+.projbutton:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+/* //////////////////////////
+    ** TOP IMAGE **
+////////////////////////// */
+.topimg {
+  margin: 5em 10em 1em 5em;
+  height: 500px;
+  width: 700px;
+}
+.topimg img {
+  height: 400px;
+  width: 300px;
+  float: left;
+  margin-right: 2em;
+}
+.topimg h1,
+.topimg p {
+  text-align: center;
+}
+.topimg .proj:first-of-type {
+  display:none;
+}
+/* //////////////////////////
+    ** BOTTOM IMAGE **
+////////////////////////// */
+.botimg {
+  margin: 1em 30em 3em 10em;
+  margin-left: 30em;
+  height: 700px;
+  width: 600px;
+}
+.botimg img {
+  height: 300px;
+  width: 400px;
+  float:right;
+  margin-right: 2em;
+}
+.botimg h1,
+.botimg p {
+  text-align: center;
+}
+.botimg .proj:first-of-type {
+  display:none;
 }
