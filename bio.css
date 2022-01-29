@@ -126,14 +126,16 @@ p{
 	box-sizing: border-box;
   text-align: center;
   width: 100%;
+  color: #e4c3ad;
 }
 .facts article {
   display: none;
+  margin: 1em;
+
 }
 .facts article:first-of-type {
   border-radius: 10px;
 	display: block;
-  color: white;
 }
 .factbutton {
 	align-self: center;

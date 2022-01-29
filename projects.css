@@ -109,9 +109,8 @@ img {
 ////////////////////////// */
 
 .botimg {
-  margin: 1em 30em 3em 10em;
-  margin-left: 30em;
-  height: 700px;
+  margin-left: 50em;
+  height: 400px;
   width: 600px;
 }
 .botimg img {
@@ -134,6 +133,7 @@ img {
 
 .linkcontainer {
   display: flex;
+  margin-top: 1em;
   height: 4em;
   width: 100vw;
   justify-content: space-evenly;
