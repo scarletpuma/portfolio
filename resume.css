@@ -111,3 +111,24 @@ span {
   padding-left: 2em;
   list-style-type: square;
 }
+
+/* //////////////////////////
+    ** LINK CONTAINER **
+////////////////////////// */
+
+.linkcontainer {
+  display: flex;
+  height: 4em;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-color: #472836;
+}
+.linkcontainer a {
+  text-decoration: none;
+  color: #9ea3b0;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+.linkcontainer a:hover {
+  color: #e4c3ad;
+}
