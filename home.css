@@ -1,10 +1,6 @@
-/* font-family: 'Waterfall', cursive;
-font-family: 'Josefin Slab', serif;
-font-family: 'Yanone Kaffeesatz', sans-serif; */
 body {
   display: flex;
   flex-direction: column;
-  background-color: #FAE1DF;
   margin: 0 auto;
 }
 
@@ -13,8 +9,8 @@ body {
 ////////////////////////// */
 
 nav {
-  display: flex;
   background-color: #e4c3ad;
+  display: flex;
   width: 100vw;
   height: 5em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -30,20 +26,17 @@ nav {
 .navlinks li {
   list-style: none;
 }
-.navlinks a {
-  color: #472836;
+.link {
   font-size: 1.5em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+
   text-decoration: none;
 }
-.navlinks a:hover {
-  color: #FAE1DF;
+.link:hover {
   text-style: italic;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px black;
 }
 #name, h4 {
-  color: #FAE1DF;
   display: inline;
   padding: 0;
   margin: 0;
@@ -54,14 +47,31 @@ nav {
   font-size: 45px;
 }
 h4 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 15px;
   margin: auto;
+}
+/* //////////////////////////
+    ** COLOR SCHEME PICKER **
+////////////////////////// */
+button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.colorselect {
+  height: 100px;
+  width: 100px;
+  overflow:scroll;
+  scrollbar-style: none;
+  text-align: center;
+  padding: 0;
+  margin:0;
 }
 /* //////////////////////////
     ** MAIN CONTAINER **
 ////////////////////////// */
 .container {
+  color: #e4c3ad;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -69,16 +79,13 @@ h4 {
   height: 500px;
   flex-grow: 1;
   width: 40%;
-  background-color: #472836;
-  font-family:'Josefin Slab', serif;
+
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border: 1px solid black;
   text-align: center;
   padding: 2em;
-  color: #e4c3ad;
   font-size: 20px;
   overflow: scroll;
-  border: .5px solid #9ea3b0;
   border-radius: 30px;
 }
 #headshot {
@@ -87,7 +94,6 @@ h4 {
   width: 160px;
   align-self: center;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  border: .5px solid #9ea3b0;
 }
 /* //////////////////////////
     ** LINK CONTAINER **
@@ -97,14 +103,76 @@ h4 {
   height: 4em;
   width: 100vw;
   justify-content: space-evenly;
-  background-color: #472836;
 }
 .linkcontainer a {
   text-decoration: none;
-  color: #9ea3b0;
   margin-top: 1em;
   font-size: 1.5em;
 }
-.linkcontainer a:hover {
-  color: #e4c3ad;
+
+/* //////////////////////////
+    ** COLORS & FONTS **
+////////////////////////// */
+body,
+.btn10 {
+    background-color: #FAE1DF;
+}
+.linkcontainer,
+.container
+{
+  background-color: #472836;
+}
+.icon:hover,
+#name,
+h4,
+.link:hover
+{
+  color: #FAE1DF;
+}
+#headshot,
+.container {
+    border: .5px solid #9ea3b0;
+}
+.link,
+.icon,
+h5{
+  color: #463F3A;
+}
+.container,
+h5 {
+  font-family:'Josefin Slab', serif;
+}
+.link,
+h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.btn1 {
+  background-color: #978897;
+}
+.btn2 {
+  background-color: #EEF1BD;
+}
+.btn3 {
+  background-color: #92AC86;
+}
+.btn4 {
+  background-color: #00171f;
+}
+.btn5 {
+  background-color: #E8E9F3;
+}
+.btn6 {
+  background-color: #B48B7D;
+}
+.btn7 {
+  background-color: #EBCFB2;
+}
+.btn8 {
+  background-color: #DBDBDB;
+}
+.btn9 {
+  background-color: #D3BCC0;
+}
+.btn10 {
+  background-color: #FAE1DF;
 }
