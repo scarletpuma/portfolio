@@ -9,11 +9,11 @@ body {
 ////////////////////////// */
 
 nav {
-  background-color: #e4c3ad;
   display: flex;
   width: 100vw;
   height: 5em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: #e4c3ad;
 }
 .navlinks {
   display: flex;
@@ -28,7 +28,6 @@ nav {
 }
 .link {
   font-size: 1.5em;
-
   text-decoration: none;
 }
 .link:hover {
@@ -50,9 +49,11 @@ h4 {
   font-size: 15px;
   margin: auto;
 }
+
 /* //////////////////////////
     ** COLOR SCHEME PICKER **
 ////////////////////////// */
+
 button {
   height: 30px;
   width: 30px;
@@ -61,15 +62,17 @@ button {
 .colorselect {
   height: 100px;
   width: 100px;
-  overflow:scroll;
+  overflow: scroll;
   scrollbar-style: none;
   text-align: center;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
+
 /* //////////////////////////
     ** MAIN CONTAINER **
 ////////////////////////// */
+
 .container {
   color: #e4c3ad;
   display: flex;
@@ -79,7 +82,6 @@ button {
   height: 500px;
   flex-grow: 1;
   width: 40%;
-
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border: 1px solid black;
   text-align: center;
@@ -95,9 +97,11 @@ button {
   align-self: center;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 /* //////////////////////////
     ** LINK CONTAINER **
 ////////////////////////// */
+
 .linkcontainer {
   display: flex;
   height: 4em;
@@ -113,6 +117,7 @@ button {
 /* //////////////////////////
     ** COLORS & FONTS **
 ////////////////////////// */
+
 body,
 .btn10 {
     background-color: #FAE1DF;
