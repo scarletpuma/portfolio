@@ -109,6 +109,8 @@ $(() => {
     $container.css(`background-color`, `${scheme.color3}`).css(`border`, `.5px solid ${scheme.color4}`).css(`color`, `${scheme.color2}`);
     $headshot.css(`border`, `.5px solid ${scheme.color4}`);
     $linkcontainer.css(`background-color`, `${scheme.color3}`);
+    $link.css(`color`, `${scheme.color4}`)
+    $icon.css(`color`, `${scheme.color4}`)
     $(`.link`).hover(function(){
       $(this).css(`color`, `${scheme.color5}`);
     }, function(){
