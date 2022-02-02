@@ -111,8 +111,12 @@ h1 {
 }
 .carousel a {
   color: #9ea3b0;
+  font-size: 30px;
 }
-
+.proj {
+  overflow: scroll;
+  scrollbar-style: none;
+}
 /* //////////////////////////
     ** TOP IMAGE **
 ////////////////////////// */
@@ -121,9 +125,9 @@ h1 {
   display: flex;
   flex-grow: 1;
   margin: 5em 15em 1em 5em;
-  margin-left: 15em;
+  margin-left: 7em;
   height: 500px;
-  width: 800px;
+
 }
 .topimg img {
   height: 400px;
@@ -145,10 +149,10 @@ h1 {
 
 .botimg {
   display:flex;
-  flex-grow: 1;
-  margin-left: 30em;
+  flex-grow: 5;
+  margin-left: 12em;
+  margin-bottom: 2em;
   height: 400px;
-  width: 800px;
 }
 .botimg img {
   height: 300px;

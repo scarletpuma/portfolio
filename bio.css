@@ -90,6 +90,7 @@ button {
 	box-sizing: border-box;
   text-align: center;
   width: 100%;
+  overflow: auto;
 }
 .facts article {
   display: none;
