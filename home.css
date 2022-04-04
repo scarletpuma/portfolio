@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  text-align: center;
+  justify-content: center;
 }
 
 /* //////////////////////////
@@ -13,41 +15,22 @@ nav {
   width: 100vw;
   height: 5em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  background-color: #361524;
+  background-color: white;
 }
-.navlinks {
-  display: flex;
-  width: 100vw;
-  justify-content: space-around;
-  align-items: center;
-  margin: 1em;
-  padding: 0.5em;
-}
-.navlinks li {
-  list-style: none;
-}
-.link {
-  font-size: 1.5em;
-  text-decoration: none;
-}
-.link:hover {
-  text-style: italic;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px black;
-}
-#name, h4 {
+#name, span {
   display: inline;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   text-shadow: 1px 1px 1px black;
 }
 #name {
   font-family: 'Waterfall', cursive;
   font-size: 45px;
+  text-align: center;
 }
-h4 {
-  font-size: 15px;
-  margin: auto;
+span {
+  font-size: 30px;
+  margin: 0 auto;
 }
 
 /* //////////////////////////
@@ -74,7 +57,7 @@ h4 {
 ////////////////////////// */
 
 .container {
-  color: #e4c3ad;
+  color: black;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -83,12 +66,13 @@ h4 {
   flex-grow: 1;
   width: 40%;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  border: 1px solid black;
+  border: 1px solid white;
   text-align: center;
   padding: 2em;
   font-size: 20px;
   overflow: scroll;
-  border-radius: 30px;
+  border-radius: 10px;
+  
 }
 #headshot {
   border-radius: 50%;
@@ -98,6 +82,9 @@ h4 {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+.icon {
+  width: 90px;
+}
 /* //////////////////////////
     ** LINK CONTAINER **
 ////////////////////////// */
@@ -113,18 +100,21 @@ h4 {
   margin-top: 1em;
   font-size: 1.5em;
 }
-
+.skills {
+  background-color: white;
+  margin: 50px;
+}
 /* //////////////////////////
     ** COLORS & FONTS **
 ////////////////////////// */
 
 body{
-  background-color: white;
+  background-color: black;
 }
 .container,
 .linkcontainer
  {
-    background-color: black;
+    background-color: white;
 }
 .icon:hover,
 
@@ -141,7 +131,7 @@ body{
 h5,
 #name,
 h4{
-  color: white;
+  color: black;
 }
 .container,
 h5 {
@@ -187,15 +177,19 @@ h4 {
 .carousel {
   display:flex;
   flex-direction: column;
+  color: white;
+  width: 80%;
+  align-self: center;
+  margin-bottom: 50px;
 }
-img {
+.carousel img {
   border: 1px solid #472836;
   padding: 5px;
 }
 .projbutton {
 	align-self: center;
-	background-color: #9ea3b0;
-	color: #472836;
+	background-color: white;
+	color: black;
 	padding: .4em;
   margin: 1em;
 	text-align: center;
@@ -205,7 +199,7 @@ img {
 }
 .projbutton:hover {
 	cursor: pointer;
-	background-color: #e4c3ad;
+	background-color: #500202;
 	box-shadow: 1px 1px #000;
 	color: white;
 }
@@ -213,10 +207,10 @@ img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 h1 {
-  color: #472836;
+  color: white;
   font-family: 'Waterfall', cursive;
   font-size: 60px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 4px 1px #500202;
 }
 .carousel a {
   color: #9ea3b0;
@@ -277,56 +271,3 @@ h1 {
   display: none;
 }
 
-/* //////////////////////////
-    ** RESUME **
-////////////////////////// */
-
-.resume {
-  display: flex;
-  flex-direction: column;
-}
-.resume ul {
-  font-family: 'Josefin Slab', serif;
-  font-size: 20px;
-}
-.experience ul {
-  list-style-type: none;
-}
-
-.excircle, .skillcircle {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 1em;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.resume h1 {
-  margin: 1em;
-  z-index: 1;
-  align-self: center;
-  font-family: 'Waterfall', cursive;
-  font-size: 70px;
-  text-shadow: 5px 2px 0px #000;
-}
-span {
-  text-shadow: 5px 2px 0px #472836;
-}
-.resume h3 {
-  text-shadow: 4px 3px 0 #7A7A7A;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
-  color: #472836;
-}
-.skills h1 {
-  margin-left: 2em;
-}
-.skills {
-  display: flex;
-  flex-direction: row;
-}
-.skills ul {
-  margin-left: 7em;
-  padding-left: 2em;
-  list-style-type: square;
-}
