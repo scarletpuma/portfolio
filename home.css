@@ -217,7 +217,7 @@ h4 {
 }
 h1 {
   color: white;
-  font-family: 'Waterfall', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 60px;
   text-shadow: 1px 4px 1px #500202;
 }
@@ -242,8 +242,7 @@ h1 {
 
 }
 .topimg img {
-  height: 400px;
-  width: 300px;
+  height: 300px;
   float: left;
   margin-right: 2em;
 }
@@ -268,7 +267,6 @@ h1 {
 }
 .botimg img {
   height: 300px;
-  width: 400px;
   float: right;
   margin-right: 2em;
 }
