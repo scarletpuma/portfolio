@@ -22,6 +22,7 @@ nav {
   padding: 0;
   margin: 0 auto;
   text-shadow: 1px 1px 1px black;
+  margin-left: 300px;
 }
 #name {
   font-family: 'Waterfall', cursive;
@@ -31,6 +32,14 @@ nav {
 span {
   font-size: 30px;
   margin: 0 auto;
+}
+a {
+  color: black;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #500202;
 }
 
 /* //////////////////////////
@@ -271,3 +280,11 @@ h1 {
   display: none;
 }
 
+.info {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10px;
+}
+h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
